@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a class="nav-link" href="index.php">home</a>
-            <a class="nav-link" href="pricing.php">pricing</a>
+            <a class="nav-link" href="pricing.php">jokiin</a>
             <a class="nav-link" href="about.php">about</a>
             <a class="nav-link" href="contact.php">contact</a>
           </div>
