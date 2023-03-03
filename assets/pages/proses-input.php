@@ -1,4 +1,23 @@
-<!-- php tag for get user input -->
+<?php
+
+  include("../include/config/config.php");
+
+  if(isset($_POST['submit'])){
+    $sql = mysqli_query($conn, "INSERT INTO `pelanggan`(`email`, `password`, `via_login`, `nickname`, `request`, `catatan`, `jenis_order`, `payment`, `tgl_pembelian`) VALUES ('$_POST[email]', '$_POST[password]','$_POST[login]','$_POST[nickname]','$_POST[request]','$_POST[note]','$_POST[rank]','$_POST[payment]',current_timestamp) ");
+
+    if ($sql) {
+      echo "<script>
+            alert('Simpan Data Sukses!');
+            document.location='pricing.php';
+            </script>";
+    } else {
+      echo "<script>
+            alert('Simpan Data Gagal!');
+            document.location='pricing.php';
+            </script>";
+    }
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,18 +43,6 @@
     <div class="row">
       <div class="col-md-8 mx-auto">
 
-        <!-- php tag for get user input -->
-        <?php if ($_POST) : ?>
-        <?php // deklarasi variable
-        $email = $_POST['email'];
-        $password = $_POST['password'];
-        $login = $_POST['login'];
-        $nickname = $_POST['nickname'];
-        $request = $_POST['request'];
-        $note = $_POST['note'];
-        $payment = $_POST['payment'];
-        $order = $_POST['rank']
-        ?>
           <div class="card">
             <div class="card-header">Output</div>
             <div class="card-body">
@@ -49,7 +56,6 @@
               <p><?= "Order : " . $order?></p>
             </div>
           </div>
-        <?php endif; ?>
 
       </div>
     </div>
