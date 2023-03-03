@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat";
+  background: var(--background-color);
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+/* variable */
+:root {
+  --main-color: #EC4C56;
+  --background-color: #242933;
+  --second-color: #343b49;
+  --footer-color: #1a1f2b;
+}
+
+/* Header */
+.nav-link {
+  color: #fff;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-link:hover{
+  background: var(--main-color);
+  color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background: rgb(49, 48, 64);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 48, 64, 1) 0%,
+    rgba(115, 151, 158, 1) 100%
+  );
+  height: 100vh;
+}
+
+.jumbotron .btn {
+  padding: 8px 18px;
+  font-size: 1.2rem;
+}
+
+/* Header */
+header {
+  transition: 0.5s all ease;
+}
+
+.header-active {
+  background: var(--main-color);
+  transition: 0.5s all ease;
+}
+
+/* Pricing */
+#pricing {
+  margin-top: 3.8rem;
+}
+
+#pricing .card {
+  background: var(--background-color);
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.144);
+}
+
+/* Rank list */
+#rank-list .card {
+  background: var(--background-color);
+}
+
+#rank-list .card .card-body .form-input label,
+#payment-method .card .card-body .form-input label{
+  cursor: pointer;
+}
+
+#rank-list .card .card-body .form-input:hover,
+#payment-method .card .card-body .form-input:hover {
+  border-radius: 5px;
+  background: var(--second-color);
+}
+
+#rank-list .card .card-body .form-input input:checked + label,
+#payment-method .card .card-body .form-input input:checked + label{
+  border-radius: 5px;
+  color: #fff;
+  background: var(--second-color);
+}
+
+#rank-list .card-body {
+  padding: 0.5rem;
+}
+
+#rank-list .card-title {
+  font-size: 16px;
+}
+
+#rank-list .card-text .rank-tier{
+  font-size: 12px;
+}
+
+#rank-list .card-text .rank-nominal {
+  font-family: 'Noto Serif';
+  font-size: 0.7rem;
+}
+
+
+
+/* footer */
+footer {
+  background: var(--footer-color);
+  padding: 2rem ;
+  margin-top: 2rem;
+}
+
+footer .footer-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+footer .content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .content-container .link-wrapper {
+  display: flex;
+}
