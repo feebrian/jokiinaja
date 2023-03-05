@@ -15,20 +15,148 @@
 <body>
   <?= include("../include/partials/navbar.php") ?>
 
-  <div class="container">
-    <div class="title mt-5">
+  <div class="title-container">
+    <div class="title">
       <div class="main-text">
         <h1><b>Jokiin<span class="color">aja</span></b></h1>
         <h3>stuck di epic? <br> jokiinaja auto mythic.</h3>
       </div>
       <div class="second-text">
         <p><span class="color">Jokiinaja</span> adalah sebuah jasa joki yang berbasis <span class="color">online</span>. <span class="color">Jokiinaja</span> berfokus pada game <span class="color">MOBA</span> seluler yang berjudul <span class="color">Mobile Legends</span>.</p>
+
+        <button type="button" class="btn btn-danger">
+          <a href="pricing.php">
+            <i class='bx bx-cart bx-fw bx-sm'></i>Order Now
+          </a>
+        </button>
       </div>
     </div>
   </div>
 
+  <section id="why-choose-us">
+    <div class="container">
+      <div class="heading text-center p-4">
+        <h1 class="fw-bold fs-1">Kenapa Memilih <span class="color">Jokiinaja</span></h1>
+      </div>
+      <div class="text-wrapper">
+        <div class="text">
+          <ul class="bx-ul">
+            <li><span class="list-title"><i class='bx bx-right-arrow bx-fw'></i><b>Pemrosesan yang cepat</b></span>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui itaque unde voluptates?</li>
+              </ul>
+            </li>
+            <li><span class="list-title"><i class='bx bx-right-arrow bx-fw'></i><b>Rank terjamin naik</b></span>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, voluptas.</li>
+              </ul>
+            </li>
+            <li><span class="list-title"><i class='bx bx-right-arrow bx-fw'></i><b>Keamanan terjaga</b></span>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img src="../img/rank/TV - 1.png" alt="rank-pict">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <div class="heading text-center p-4">
+        <h1 class="fw-bold fs-1">Jokiinaja Testimonial</h1>
+        <p class="lead">Tannggapan dari klien <span class="color">Jokiinaja</span></p>
+      </div>
+
+      <div class="row text-center">
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="img">
+              <img src="../img/profile.png" alt="User Pict">
+              <h5 class="username text-black mt-2">Adam Febrian</h5>
+            </div>
+            <div class="desc">
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="img">
+              <img src="../img/profile.png" alt="User Pict">
+              <h5 class="username text-black mt-2">Adam Febrian</h5>
+            </div>
+            <div class="desc">
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="img">
+              <img src="../img/profile.png" alt="User Pict">
+              <h5 class="username text-black mt-2">Adam Febrian</h5>
+            </div>
+            <div class="desc">
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-3 text-center">
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="img">
+              <img src="../img/profile.png" alt="User Pict">
+              <h5 class="username text-black mt-2">Adam Febrian</h5>
+            </div>
+            <div class="desc">
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="img">
+              <img src="../img/profile.png" alt="User Pict">
+              <h5 class="username text-black mt-2">Adam Febrian</h5>
+            </div>
+            <div class="desc">
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="img">
+              <img src="../img/profile.png" alt="User Pict">
+              <h5 class="username text-black mt-2">Adam Febrian</h5>
+            </div>
+            <div class="desc">
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <?= include("../include/partials/footer.php") ?>
   <?= include("../include/cdn-js.php") ?>
+  <script src="../js/main.js"></script>
 </body>
 
 </html>

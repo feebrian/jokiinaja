@@ -22,7 +22,6 @@
           </li>
           <li><a href="https://instagram.com" class="social-link">Instagram</a></li>
           <li><a href="https://Facebook.com" class="social-link">Facebook</a></li>
-          <li><a href="https://.com" class="social-link"></a></li>
         </ul>
       </div>
     </div>

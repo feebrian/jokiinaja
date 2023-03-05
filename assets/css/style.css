@@ -25,10 +25,6 @@ a {
   text-decoration: underline;
 }
 
-ul {
-  list-style-type: none;
-}
-
 section {
   margin-top: 2rem;
 }
@@ -68,12 +64,19 @@ header {
 }
 
 /* Title text */
+
+.title-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   column-gap: 2rem;
   width: 1000px;
-  margin: auto;
 }
 
 .title .main-text{
@@ -96,7 +99,55 @@ header {
   text-align: left;
 }
 
-/* Jumbotron */
+.title .second-text button{
+  padding: 6px;
+}
+.title .second-text button > a{
+  text-decoration: none;
+}
+
+.title .second-text button > a:hover{
+  color: white;
+}
+
+/* Why choose us */
+#why-choose-us {
+  background: var(--second-color);
+}
+
+#why-choose-us .text-wrapper{
+  padding-top: 30px;
+}
+
+#why-choose-us .text-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 2rem;
+  width: 1000px;
+  margin: auto;
+}
+
+#why-choose-us .text-wrapper .text .list-title {
+  font-size: 1.3rem;
+}
+
+#why-choose-us .text-wrapper .image img{
+  width: 500px;
+}
+
+/* Testimonials */
+#testimonials .card {
+  color: #000;
+  padding: 10px;
+  border-radius: 1em 4em;
+}
+
+#testimonials .card .img img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Jumbotron
 .jumbotron {
   background: rgb(49, 48, 64);
   background: linear-gradient(
@@ -110,7 +161,7 @@ header {
 .jumbotron .btn {
   padding: 8px 18px;
   font-size: 1.2rem;
-}
+} */
 
 /* Pricing */
 #pricing {
