@@ -16,7 +16,7 @@
 
 <body>
 
-  <?= include("../include/partials/navbar.php") ?>
+  <?php include("../include/partials/navbar.php") ?>
 
   <!-- Main Content Start -->
   <main>
@@ -447,7 +447,7 @@
                 <div class="card-body">
 
                   <!-- accordion start -->
-                  <div class="accordion " id="accordionFlushExample">
+                  <div class="accordion" id="accordionFlushExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -550,8 +550,8 @@
   </main>
   <!-- Main Content End -->
 
-  <?= include("../include/partials/footer.php") ?>
-  <?= include("../include/cdn-js.php"); ?>
+  <?php include("../include/partials/footer.php") ?>
+  <?php include("../include/cdn-js.php"); ?>
   <script src="../js/main.js"></script>
 
   <!--Ionicons-->

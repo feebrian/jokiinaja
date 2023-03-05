@@ -7,8 +7,8 @@
 
   $conn = mysqli_connect($host, $usr, $pass, $db);
 
-  if(!$conn){
-    die("Koneksi gagal " . mysqli_connect_error());
-  } else {
-    echo "Koneksi berhasil";
-  }
+  // if(!$conn){
+  //   die("Koneksi gagal " . mysqli_connect_error());
+  // } else {
+  //   echo "Koneksi berhasil";
+  // }

@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jokiinaja | Home</title>
 
-  <?= include("../include/cdn.php") ?>
+  <?php include("../include/cdn.php") ?>
 
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-  <?= include("../include/partials/navbar.php") ?>
+  <?php include("../include/partials/navbar.php") ?>
 
   <div class="title-container">
     <div class="title">
@@ -81,7 +81,7 @@
               <h5 class="username text-black mt-2">Adam Febrian</h5>
             </div>
             <div class="desc">
-              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+              <p class="text-black">"Joki disini sangat cepat dan terpercaya, Recomended banget deh"</p>
             </div>
           </div>
         </div>
@@ -90,10 +90,10 @@
           <div class="card">
             <div class="img">
               <img src="../img/profile.png" alt="User Pict">
-              <h5 class="username text-black mt-2">Adam Febrian</h5>
+              <h5 class="username text-black mt-2">Dodi Fernando</h5>
             </div>
             <div class="desc">
-              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+              <p class="text-black">"Kayaknya kemarin rank w masih epic kok sekarang uddah mythic aja ya"</p>
             </div>
           </div>
         </div>
@@ -102,10 +102,10 @@
           <div class="card">
             <div class="img">
               <img src="../img/profile.png" alt="User Pict">
-              <h5 class="username text-black mt-2">Adam Febrian</h5>
+              <h5 class="username text-black mt-2">Ani</h5>
             </div>
             <div class="desc">
-              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+              <p class="text-black">"Temenku sampe kaget ranknya gua duluin hahaha"</p>
             </div>
           </div>
         </div>
@@ -118,10 +118,10 @@
           <div class="card">
             <div class="img">
               <img src="../img/profile.png" alt="User Pict">
-              <h5 class="username text-black mt-2">Adam Febrian</h5>
+              <h5 class="username text-black mt-2">Andre Taulani</h5>
             </div>
             <div class="desc">
-              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+              <p class="text-black">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ipsa"</p>
             </div>
           </div>
         </div>
@@ -130,10 +130,10 @@
           <div class="card">
             <div class="img">
               <img src="../img/profile.png" alt="User Pict">
-              <h5 class="username text-black mt-2">Adam Febrian</h5>
+              <h5 class="username text-black mt-2">Jhon Wick</h5>
             </div>
             <div class="desc">
-              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+              <p class="text-black">"Lorem ipsum dolor sit amet consectetur, adipisicing elit"</p>
             </div>
           </div>
         </div>
@@ -142,10 +142,10 @@
           <div class="card">
             <div class="img">
               <img src="../img/profile.png" alt="User Pict">
-              <h5 class="username text-black mt-2">Adam Febrian</h5>
+              <h5 class="username text-black mt-2">Thomas Gustavo</h5>
             </div>
             <div class="desc">
-              <p class="text-black">"Joki disini sangat cepat dan terpercaya"</p>
+              <p class="text-black">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est maiores facere dolor ea"</p>
             </div>
           </div>
         </div>
@@ -154,8 +154,8 @@
     </div>
   </section>
 
-  <?= include("../include/partials/footer.php") ?>
-  <?= include("../include/cdn-js.php") ?>
+  <?php include("../include/partials/footer.php") ?>
+  <?php include("../include/cdn-js.php") ?>
   <script src="../js/main.js"></script>
 </body>
 

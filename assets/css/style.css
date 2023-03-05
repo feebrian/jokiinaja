@@ -6,7 +6,6 @@
 * {
   margin: 0;
   padding: 0;
-  color: #fff;
   box-sizing: border-box;
 }
 
@@ -70,6 +69,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 .title {
@@ -113,6 +113,7 @@ header {
 /* Why choose us */
 #why-choose-us {
   background: var(--second-color);
+  color: #fff;
 }
 
 #why-choose-us .text-wrapper{
@@ -136,6 +137,10 @@ header {
 }
 
 /* Testimonials */
+#testimonials .heading{
+  color: #fff;
+}
+
 #testimonials .card {
   color: #000;
   padding: 10px;
@@ -166,6 +171,7 @@ header {
 /* Pricing */
 #pricing {
   margin-top: 3.8rem;
+  color: #fff;
 }
 
 #pricing .card {
@@ -213,6 +219,10 @@ header {
   font-size: 0.7rem;
 }
 
+#payment-method .accordion .card {
+  color: #fff;
+}
+
 
 
 /* footer */
@@ -220,6 +230,7 @@ footer {
   background: var(--footer-color);
   padding: 2rem ;
   margin-top: 2rem;
+  color: #fff;
 }
 
 footer .footer-title h2 {
