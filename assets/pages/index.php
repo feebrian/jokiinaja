@@ -154,6 +154,50 @@
     </div>
   </section>
 
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+
+        <div class="heading text-center p-4">
+          <h1 class="fw-bold">Contact Us</h1>
+        </div>
+
+        <div class="form-input">
+          <form method="post" action="../mail/mail-process.php">
+            <div class="row">
+              <div class="mb-3 col-md-6">
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="text" name="firstname" class="form-control" id="firstname" required>
+              </div>
+
+              <div class="mb-3 col-md-6">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="text" name="lastname" class="form-control" id="lastname" required>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" name="subject" class="form-control" id="subject" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" id="message" class="form-control" cols="30" rows="6" required></textarea>
+            </div>
+            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <?php include("../include/partials/footer.php") ?>
   <?php include("../include/cdn-js.php") ?>
   <script src="../js/main.js"></script>

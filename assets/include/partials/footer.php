@@ -1,7 +1,8 @@
 <!-- Footer Start -->
 <footer>
-    <div class="content-container container">
+  <div class="container">
 
+    <div class="content-container">
       <div class="footer-title">
         <h2>JOKIINAJA</h2>
       </div>
@@ -25,4 +26,7 @@
         </ul>
       </div>
     </div>
-  </footer> <!-- footer end -->
+
+    <p class="text-center mt-5 mb-0 p-3">copyright 2023</p>
+  </div>
+</footer> <!-- footer end -->

@@ -12,29 +12,39 @@
   <?php include("../../include/cdn.php"); ?>
   <link rel="stylesheet" href="../../css/style.css">
 </head>
+<style>
+  label {
+    color: #fff;
+  }
+
+  .row {
+    height: 100vh;
+  }
+</style>
 
 <body>
 
-  <div class="container">
-
-    <div class="card col-md-6 mx-auto">
+  <div class="row align-items-center">
+    <div class="mx-auto col-10 col-md-8 col-lg-6">
       <form action="login.php" method="post" onsubmit="return validation()">
-        
-        <div class="col-md-4">
+
+        <div class="col-md-6">
           <label for="username">Username</label>
           <input type="text" name="username" id="username" class="form-control">
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
           <label for="password">Password</label>
           <input type="password" name="password" id="password" class="form-control">
         </div>
 
-        <input type="submit" value="Login" class="btn btn-primary">
+        <input type="submit" value="Login" class="btn btn-primary mt-3">
       </form>
     </div>
+  </div>
 
-    <?php include("../../include/cdn-js.php"); ?>
+
+  <?php include("../../include/cdn-js.php"); ?>
 </body>
 
 <script>

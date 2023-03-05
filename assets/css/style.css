@@ -228,14 +228,13 @@ header {
 /* footer */
 footer {
   background: var(--footer-color);
-  padding: 2rem ;
-  margin-top: 2rem;
+  padding: 2rem;
+  padding-bottom: 0;
   color: #fff;
 }
 
-footer .footer-title h2 {
-  font-size: 2rem;
-  font-weight: 600;
+footer .content-container ul{
+  list-style: none;
 }
 
 footer .content-container {
@@ -243,6 +242,24 @@ footer .content-container {
   justify-content: space-between;
 }
 
+footer .footer-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 footer .content-container .link-wrapper {
   display: flex;
+}
+
+/* Homepage */
+#contact {
+  padding: 20px;
+  padding-bottom: 2.5rem;
+  color: #fff;
+  background: var(--second-color);
+}
+
+#contact .form-input{
+  width: 700px;
+  margin: auto;
 }

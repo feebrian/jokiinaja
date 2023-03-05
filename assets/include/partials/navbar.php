@@ -10,8 +10,8 @@
           <div class="navbar-nav ms-auto">
             <a class="nav-link" href="index.php">home</a>
             <a class="nav-link" href="pricing.php">jokiin</a>
-            <a class="nav-link" href="about.php">about</a>
-            <a class="nav-link" href="contact.php">contact</a>
+            <a class="nav-link" href="about.php">about</a>`
+            <a class="nav-link" href="../admin/pages/index.php">Login</a>
           </div>
         </div>
       </div>
