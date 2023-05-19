@@ -22,7 +22,7 @@
         <h3>stuck di epic? <br> jokiinaja auto mythic.</h3>
       </div>
       <div class="second-text">
-        <p><span class="color">Jokiinaja</span> adalah sebuah jasa joki yang berbasis <span class="color">online</span>. <span class="color">Jokiinaja</span> berfokus pada game <span class="color">MOBA</span> seluler yang berjudul <span class="color">Mobile Legends</span>.</p>
+        <p><span class="color">Jokiinaja</span> adalah sebuah jasa joki yang berbasis <span class="color">online</span>. <span class="color">Jokiinaja</span> berfokus pada game <span class="color">MOBA</span> seluler yang berjudul <span class="color">Mobile Legends</span>. Jokiin dulu gak sih?</p>
 
         <button type="button" class="btn btn-danger">
           <a href="pricing.php">
