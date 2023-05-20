@@ -24,7 +24,7 @@
       <div class="second-text">
         <p><span class="color">Jokiinaja</span> adalah sebuah jasa joki yang berbasis <span class="color">online</span>. <span class="color">Jokiinaja</span> berfokus pada game <span class="color">MOBA</span> seluler yang berjudul <span class="color">Mobile Legends</span>.</p>
 
-        <button type="button" class="btn btn-danger">
+        <button type="button" class="btn btn-primary">
           <a href="pricing.php">
             <i class='bx bx-cart bx-fw bx-sm'></i>Order Now
           </a>
