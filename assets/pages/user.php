@@ -10,6 +10,14 @@
 
 <body>
     <h3>Halaman user profile</h3>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </aside>
 </body>
 
 </html>
